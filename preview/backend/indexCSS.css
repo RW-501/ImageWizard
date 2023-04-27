@@ -1,0 +1,50 @@
+/* CSS Document */
+
+
+body {
+
+
+	background: rgba(255,255,255,1.00); /* For browsers that do not support gradients */
+	padding-bottom: 30%;
+	background-position:center 0%;
+	margin: auto;
+
+}
+
+
+ A:link {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:hover {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+ A:active {
+	text-decoration: none;
+	color: #FFF;}
+A:focus {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+
+
+#page_container{
+	width: 100%;
+
+	height: 100%;
+	 margin: 60px auto  auto ;
+
+		min-width: 980px;
+  position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+				margin-top: 60px;
+
+}

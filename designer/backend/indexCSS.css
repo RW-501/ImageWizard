@@ -1,0 +1,155 @@
+/* CSS Document */
+
+
+body {
+
+
+	background: rgba(255,255,255,1.00); /* For browsers that do not support gradients */
+	padding-bottom: 30%;
+	background-position:center 0%;
+	margin: auto;
+
+}
+
+
+ A:link {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:hover {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+ A:active {
+	text-decoration: none;
+	color: #FFF;}
+A:focus {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+
+
+#page_container{
+	width: 100%;
+
+	height: 100%;
+	 margin: 60px auto  auto ;
+
+		min-width: 980px;
+  position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+				margin-top: 60px;
+
+}
+
+
+#canvas_wrap{
+  position: relative;
+  text-align: center;
+	margin: auto;
+	
+	width: 75%;
+	height: 75%;
+		left: 0; right: 0; bottom: 0; top: 0;
+	background-color: #FFE09A;
+}
+
+
+
+/* Container holding the image and the text */
+#canvas {
+  position: absolute;
+  text-align: center;
+	margin: auto;
+	
+	width: 75%;
+	height: 75%;
+	background-color: #FFFFFF;
+		left: 0; right: 0; bottom: 0; top: 0;
+}
+
+
+#main_photo{
+	
+	position: relative;
+	width: 75%;
+	height: 75%;
+	
+	margin: auto;
+}
+
+
+
+
+
+/* Bottom left text */
+#bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+#top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+#top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+#bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Bottom  text */
+#bottom {
+  position: absolute;
+  bottom: 8px;
+}
+
+/*  left text */
+#left {
+  position: absolute;
+  left: 16px;
+}
+
+/* Top  text */
+#top {
+  position: absolute;
+  top: 8px;
+}
+
+/*  right text */
+#right {
+  position: absolute;
+  right: 16px;
+}
+
+
+
+

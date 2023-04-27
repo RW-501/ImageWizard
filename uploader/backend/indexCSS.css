@@ -1,0 +1,329 @@
+/* CSS Document */
+
+
+body {
+
+
+	background: rgba(255,255,255,1.00); /* For browsers that do not support gradients */
+	padding-bottom: 30%;
+	background-position:center 0%;
+	margin: auto;
+
+}
+
+
+ A:link {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:hover {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+ A:active {
+	text-decoration: none;
+	color: #FFF;}
+A:focus {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+
+
+#page_container{
+	width: 100%;
+
+	height: 100%;
+	 margin: 60px auto  auto ;
+
+		min-width: 980px;
+  position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+				margin-top: 60px;
+
+}
+
+
+#page_wapper{
+	padding: 2%;
+min-height: 600px;
+	    width: 100%;
+}
+
+
+#drop_zone {
+    background-color: #EEE;
+    border: rgba(193,213,212,1.00) 5px dashed;
+    height: 250px;
+    /* padding: 8px; */
+    font-size: 18px;
+    position: relative;
+     display: inline-table; 
+	width: 100%;
+	
+    min-width: 800px;
+
+}
+
+
+
+
+
+#upload-btn-wrapper {
+    width: 40%;
+    height: 30%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+	overflow: hidden;
+}
+
+.btn {
+  border: 2px solid rgba(193,213,212,1.00);
+  color: rgba(193,213,212,1.00);
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+    margin: auto;
+    right: 0;
+    position: relative;
+    left: 0;
+	display: block;
+}
+
+#upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+}
+
+
+#ul_button_wrap{
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+
+#up_bt_under_text{
+	text-align: center;
+
+	
+}
+
+
+
+
+
+
+#buttons_area_containter{
+background-color:rgba(255,255,255,0.00);
+
+		height: 20%;
+	width: 100%;
+	margin-top: 3%;
+	
+	
+}
+
+#main_input_area_containter labels{
+    font-weight:bold;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+	display: inline;
+line-height: 250%;
+}
+
+
+#main_input_area_containter [type=checkbox]{
+    width: 50;
+    height: 50;
+    margin: 2%;
+}
+
+.buttons_containter_wrap{
+	
+    float: left;
+    height: 90%;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.list_buttons{
+		line-height: 150%;
+
+	height: 70px;
+	width: 90%;
+
+    color:#000000;
+    font-weight:bold;
+	
+    font-size: 40px;
+
+    background-color:rgba(255,255,255,0.00);
+cursor: pointer;
+
+	border:outset;
+	border-color: #000000;
+	
+	border-style: solid;
+border-radius: 5px;
+	
+	
+	text-align: center;
+	    box-sizing: border-box;
+	
+	margin: auto;
+	
+}
+#post_button{
+	    background-color: rgba(193,213,212,1.00);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#close_button{
+	width: 10%;
+	height: 10%;
+	cursor: pointer;
+
+	border:outset;
+	border-color: #FFFFFF;
+	
+	border-style: solid;
+border-radius: 5px;
+}
+
+#error_message_area{
+	position: fixed;
+	width: 100%;
+	line-height: 150%;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	bottom: 20;
+	margin: auto;
+	display: none;
+	text-align: center;
+	font-size: 100%;
+	z-index: 200;
+}
+
+.uploadInfo{
+		width: 100%;
+	height: 20%;
+}
+
+
+.pic_container{
+	height: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,0.00);
+    margin: 5px;
+    border: inset;
+    border-style: solid;
+    border-color: rgba(87,87,87,1.00);
+    overflow: hidden;
+    box-sizing: border-box;
+		display: none;
+
+	  position: relative;
+
+}
+
+
+
+.upload_photos{
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: fill;
+	    margin: inherit;
+	display: inline-block;
+
+		height: 95%;
+    width: 95%;
+}
+
+.image_label{
+	
+	  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: #B6B6B6;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+display: none;
+}
+
+
+
+
+
+#main_image_label{
+	top: 0; left: 0; 
+	/*right: 0;*/
+  position: absolute;
+
+  background-color: #B6B6B6;
+  color: white;
+	padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+
+
+#item-main_Photo{
+	width: 100%;
+	
+}
+
+#xx{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
